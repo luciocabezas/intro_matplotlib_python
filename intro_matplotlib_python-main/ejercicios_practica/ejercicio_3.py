@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
     fig = plt.figure()
     ax = fig.add_subplot()
-    ax.plot(x, y, marker="+", label='Tangente hiperbólica')
+    ax.scatter(x, y, marker="+", label='Tangente hiperbólica')
     ax.legend()
     plt.show()
 
